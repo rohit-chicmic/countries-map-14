@@ -3,9 +3,9 @@
   "version": "4.2.4",
   "description": "World countries datamaps component for Angular",
   "license": "MIT",
-  "author": "Jago MF <jago@lunadevel.com>",
-  "repository": "github:jagomf/countries-map",
-  "homepage": "https://github.com/jagomf/countries-map",
+  "author": "Rohit kumar <rohit.kumar@chicmic.co.in>",
+  "repository": "https://github.com/rohit-chicmic/countries-map-14.git",
+  "homepage": "https://github.com/rohit-chicmic/countries-map-14.git",
   "keywords": [
     "countries",
     "country",

@@ -4,8 +4,8 @@
   "description": "Builder and demo runner for countries-map",
   "license": "MIT",
   "author": "Rohit <rohit.kumar@chicmic.co.in>",
-  "repository": "github:jagomf/countries-map",
-  "homepage": "https://github.com/jagomf/countries-map",
+  "repository": "https://github.com/rohit-chicmic/countries-map-14.git",
+  "homepage": "https://github.com/rohit-chicmic/countries-map-14.git",
   "scripts": {
     "demo": "npm run minify && ng serve",
     "build:demo": "npm run minify && ng build countries-map-dev",
