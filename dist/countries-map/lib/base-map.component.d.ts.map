@@ -1,1 +1,0 @@
-{"version":3,"file":"base-map.component.d.ts","sources":["base-map.component.d.ts"],"names":[],"mappings":"AAAA;AACA;AACA;;AACA;;;AAAA,AACA","sourcesContent":["/**\r\n * @private Do not use this component in your app. Use `CountriesMapComponent` instead.\r\n */\r\nexport declare class CountriesMapBaseComponent {\r\n}\r\n"]}

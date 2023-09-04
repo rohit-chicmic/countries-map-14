@@ -1,0 +1,50 @@
+{
+  "name": "countries-map-14",
+  "version": "4.2.4",
+  "description": "World countries datamaps component for Angular",
+  "license": "MIT",
+  "author": "rohit1998 <rkumar181398@gmail.com>",
+  "repository": "https://github.com/rohit-chicmic/countries-map-14.git",
+  "homepage": "https://github.com/rohit-chicmic/countries-map-14.git",
+  "keywords": [
+    "countries",
+    "country",
+    "map",
+    "datamap",
+    "datamaps",
+    "angular",
+    "Charts"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
+  },
+  "dependencies": {
+    "@jagomf/countrieslist": "^2.1.0",
+    "chroma-js": "^2.1.0",
+    "tslib": "^2.0.0"
+  },
+  "module": "fesm2015/countries-map-14.mjs",
+  "es2020": "fesm2020/countries-map-14.mjs",
+  "esm2020": "esm2020/countries-map-14.mjs",
+  "fesm2020": "fesm2020/countries-map-14.mjs",
+  "fesm2015": "fesm2015/countries-map-14.mjs",
+  "typings": "index.d.ts",
+  "exports": {
+    "./package.json": {
+      "default": "./package.json"
+    },
+    ".": {
+      "types": "./index.d.ts",
+      "esm2020": "./esm2020/countries-map-14.mjs",
+      "es2020": "./fesm2020/countries-map-14.mjs",
+      "es2015": "./fesm2015/countries-map-14.mjs",
+      "node": "./fesm2015/countries-map-14.mjs",
+      "default": "./fesm2020/countries-map-14.mjs"
+    }
+  },
+  "sideEffects": false,
+  "scripts": {
+    "prepublishOnly": "node --eval \"console.error('ERROR: Trying to publish a package that has been compiled by Ivy in full compilation mode. This is not allowed.\\nPlease delete and rebuild the package with Ivy partial compilation mode, before attempting to publish.\\n')\" && exit 1"
+  }
+}
