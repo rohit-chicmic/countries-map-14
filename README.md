@@ -1,4 +1,4 @@
-# countries-map
+# countries-map-14
 
 > World countries datamaps component for Angular.
 
@@ -8,6 +8,8 @@
 ![screenshot](https://raw.githubusercontent.com/jagomf/countries-map/master/screenshot.png)
 
 ## This package does not depend on 3rd parties
+
+## Compatible with angular version 14
 
 Starting with v4, this package **does NOT depend on Google GeoCharts**.
 
