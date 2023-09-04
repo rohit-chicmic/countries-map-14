@@ -1,0 +1,30 @@
+{
+  "name": "countries-map-14",
+  "version": "4.2.4",
+  "description": "World countries datamaps component for Angular",
+  "license": "MIT",
+  "author": "Jago MF <jago@lunadevel.com>",
+  "repository": "github:jagomf/countries-map",
+  "homepage": "https://github.com/jagomf/countries-map",
+  "keywords": [
+    "countries",
+    "country",
+    "map",
+    "datamap",
+    "datamaps",
+    "angular",
+    "Charts"
+  ],
+  "peerDependencies": {
+    "@angular/common": "^14.0.0",
+    "@angular/core": "^14.0.0"
+  },
+  "dependencies": {
+    "@jagomf/countrieslist": "^2.1.0",
+    "chroma-js": "^2.1.0",
+    "tslib": "^2.0.0"
+  },
+  "devDependencies": {
+    "@types/chroma-js": "^2.1.2"
+  }
+}

@@ -1,0 +1,25 @@
+<div class="major-block loading" *ngIf="loading"><span class="text">Loading map...</span></div>
+
+<countries-map-base class="major-block cm-map-content" #mapContent (click)="onMapSelect($event)" [ngClass]="{'goes-first': captionBelow}">
+</countries-map-base>
+
+<div class="major-block cm-caption-container" [ngClass]="{'goes-first': !captionBelow}"
+  *ngIf="!loading && showCaption">
+  <div class="cm-simple-caption">
+    <div class="cm-country-label">
+      <span class="cm-default-label" *ngIf="!selection">{{countryLabel}}</span>
+      <span class="cm-country-name" *ngIf="selection">{{selection?.countryName}}</span>
+    </div>
+    <div class="cm-value-label">
+      <span class="cm-value-text"
+        [ngClass]="{'has-value': selection}">{{valueLabel}}<span *ngIf="selection">: </span></span>
+      <span class="cm-value-content" *ngIf="selection">{{selectionValue}}</span>
+    </div>
+  </div>
+  <div class="cm-extended-caption" *ngIf="selection?.extra && selection?.extra.length > 0">
+    <div *ngFor="let item of selection?.extra" class="cm-extended-item">
+      <span class="cm-extended-label">{{item.key}}</span>:
+      <span class="cm-extended-value">{{item.val}}</span>
+    </div>
+  </div>
+</div>
