@@ -9,18 +9,17 @@
   "scripts": {
     "demo": "npm run minify && ng serve",
     "build:demo": "npm run minify && ng build countries-map-dev",
-    "build:prod": "npm run minify && ng build countries-map && npm run dist:copy",
+    "build:prod": "npm run minify && ng build countries-map --configuration production && npm run dist:copy",
     "start": "npm run demo",
     "postinstall": "ngcc",
     "minify:pre": "cp projects/lib/assets/world-map.svg projects/lib/src/lib/base-map.component.svg",
     "minify": "npm run minify:pre && svgo --config=./.svgo.yml ./projects/lib/src/lib/base-map.component.svg",
     "dist": "npm run build:prod",
     "dist:publish": "npm run dist && cd dist/countries-map && npm publish",
-    "dist:copy": "cp ./README.md dist/countries-map-14/",
+    "dist:copy": "cp ./README.md dist/countries-map-rk/",
     "test": "ng test",
     "lint": "ng lint"
   },
-  "private": true,
   "dependencies": {
     "@angular/common": "^14.0.0",
     "@angular/compiler": "^14.0.0",
